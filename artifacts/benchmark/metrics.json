@@ -1,0 +1,60 @@
+{
+  "foc-pi": {
+    "nominal": {
+      "speed_rmse_radps": 4.084643383380448,
+      "speed_rmse_percent_rated": 4.084643383380448,
+      "peak_current_a": 19.900532282245862,
+      "peak_voltage_v": 173.20508075688775,
+      "voltage_limit_violations": 0,
+      "copper_loss_j": 6.192524471091921,
+      "mechanical_energy_j": 104.6576800712811
+    },
+    "hot-winding": {
+      "speed_rmse_radps": 4.088917317519126,
+      "speed_rmse_percent_rated": 4.088917317519126,
+      "peak_current_a": 19.747273444688226,
+      "peak_voltage_v": 173.20508075688775,
+      "voltage_limit_violations": 0,
+      "copper_loss_j": 8.64604643368205,
+      "mechanical_energy_j": 104.6682527178042
+    },
+    "flux-drift": {
+      "speed_rmse_radps": 4.546628905354945,
+      "speed_rmse_percent_rated": 4.546628905354945,
+      "peak_current_a": 19.953123706488913,
+      "peak_voltage_v": 173.20508075688775,
+      "voltage_limit_violations": 0,
+      "copper_loss_j": 7.2300616944506935,
+      "mechanical_energy_j": 104.25690176570922
+    }
+  },
+  "predictive": {
+    "nominal": {
+      "speed_rmse_radps": 4.083326733016351,
+      "speed_rmse_percent_rated": 4.083326733016351,
+      "peak_current_a": 19.99059495206588,
+      "peak_voltage_v": 173.20508075688775,
+      "voltage_limit_violations": 0,
+      "copper_loss_j": 6.189747940284458,
+      "mechanical_energy_j": 104.65381138284656
+    },
+    "hot-winding": {
+      "speed_rmse_radps": 4.1168257076110875,
+      "speed_rmse_percent_rated": 4.1168257076110875,
+      "peak_current_a": 19.83200081865031,
+      "peak_voltage_v": 173.20508075688775,
+      "voltage_limit_violations": 0,
+      "copper_loss_j": 8.626076744146495,
+      "mechanical_energy_j": 104.62502824738925
+    },
+    "flux-drift": {
+      "speed_rmse_radps": 4.654684764575244,
+      "speed_rmse_percent_rated": 4.654684764575244,
+      "peak_current_a": 20.037453530666514,
+      "peak_voltage_v": 173.20508075688775,
+      "voltage_limit_violations": 0,
+      "copper_loss_j": 7.238322187115495,
+      "mechanical_energy_j": 104.42971945456509
+    }
+  }
+}

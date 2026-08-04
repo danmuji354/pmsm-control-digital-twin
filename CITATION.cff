@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: PMSM Control Digital Twin
+message: Cite this repository and Gym Electric Motor when its validation environment is used.
+type: software
+authors:
+  - alias: danmuji354
+version: 0.1.0
+license: MIT
+

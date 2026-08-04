@@ -1,0 +1,9 @@
+{
+  "speed_rmse_radps": 4.083326733016351,
+  "speed_rmse_percent_rated": 4.083326733016351,
+  "peak_current_a": 19.99059495206588,
+  "peak_voltage_v": 173.20508075688775,
+  "voltage_limit_violations": 0,
+  "copper_loss_j": 6.189747940284458,
+  "mechanical_energy_j": 104.65381138284656
+}

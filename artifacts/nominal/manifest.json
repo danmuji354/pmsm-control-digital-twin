@@ -1,0 +1,13 @@
+{
+  "config": {
+    "plant": "pmsm-dq",
+    "controller": "predictive",
+    "estimator": "full-state",
+    "scenario": "speed-step-load-step",
+    "seed": 0,
+    "duration_s": 1.0,
+    "sample_time_s": 0.0002,
+    "resistance_scale": 1.0,
+    "flux_scale": 1.0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "suite": "standard",
+  "controllers": [
+    "foc-pi",
+    "predictive"
+  ],
+  "scenarios": [
+    "nominal",
+    "hot-winding",
+    "flux-drift"
+  ]
+}
