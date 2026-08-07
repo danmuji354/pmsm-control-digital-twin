@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "repository": "pmsm-control-digital-twin",
+  "title": "PMSM Control Digital Twin",
+  "tagline": "FOC PI and predictive current control under voltage and parameter limits.",
+  "accent": "#2563eb",
+  "highlights": [
+    {
+      "label": "predictive speed RMSE",
+      "value": "4.08%"
+    },
+    {
+      "label": "peak current",
+      "value": "19.99 A"
+    },
+    {
+      "label": "copper loss delta",
+      "value": "-0.003 J"
+    }
+  ],
+  "assets": [
+    {
+      "path": "hero.png",
+      "role": "hero",
+      "width": 1600,
+      "height": 900,
+      "alt": "PMSM speed and q-axis current response for two controllers."
+    },
+    {
+      "path": "benchmark.png",
+      "role": "analysis",
+      "width": 1600,
+      "height": 900,
+      "alt": "Speed RMSE and copper loss across motor parameter drift."
+    },
+    {
+      "path": "demo.gif",
+      "role": "animation",
+      "width": 720,
+      "height": 405,
+      "alt": "Animated dq current vector and motor speed transient."
+    },
+    {
+      "path": "architecture.svg",
+      "role": "diagram",
+      "width": 1230,
+      "height": 270,
+      "alt": "Cascaded speed, current, inverter, and PMSM digital-twin loop."
+    }
+  ],
+  "reproduce": "python -m pmsm_twin.gallery --output artifacts/gallery"
+}

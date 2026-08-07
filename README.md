@@ -2,7 +2,7 @@
 
 A dq-frame permanent-magnet synchronous motor digital twin comparing cascaded PI field-oriented control with constrained one-step predictive current control. The benchmark includes load torque, hot-winding resistance, flux drift, and voltage saturation.
 
-![PMSM predictive-control transient](artifacts/nominal/response.png)
+![Voltage-constrained PMSM speed control](artifacts/gallery/hero.png)
 
 | Nominal result | FOC PI | Predictive |
 |---|---:|---:|
@@ -18,8 +18,19 @@ python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 python -m pmsm_twin.simulate --config configs/nominal.yaml
 python -m pmsm_twin.benchmark --suite standard
+python -m pmsm_twin.gallery --output artifacts/gallery
 pytest
 ```
+
+## Website-ready gallery
+
+![Animated dq current vector and speed response](artifacts/gallery/demo.gif)
+
+![Transient and copper-loss comparison](artifacts/gallery/benchmark.png)
+
+![PMSM digital-twin architecture](artifacts/gallery/architecture.svg)
+
+`artifacts/gallery/showcase.json` contains the portfolio title, highlights, alt text, dimensions, and reproducibility command. `benchmark_metrics.csv` records every plotted controller/scenario value; the exported PNG, GIF, and SVG files require no live simulation when embedded.
 
 ## Original contributions
 
